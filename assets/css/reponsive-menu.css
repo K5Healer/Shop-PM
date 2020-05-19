@@ -1,0 +1,133 @@
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#mySidenav{
+  display: none;
+}
+span.btn-rp-menu{
+  display: none;
+}
+@media only screen and (max-width: 991px){
+li.menu__item {
+    padding-left: 0px;
+}
+a.menu__link {
+  padding: 0 15px;
+  line-height: 42px;
+  font-size: 15px;
+}
+.main-menu--link {
+  line-height: 42px;
+  color: #ffffff;
+  font-size: 15px;
+}
+ul.top__menu {
+  display: none;
+}
+}
+@media only screen and (max-width: 768px) {
+  #mySidenav{
+    display: block;
+  }
+  span.btn-rp-menu{
+    display: block;
+    float: right;
+    margin-right: 5px;
+  }
+  span.btn-rp-menu:hover{
+    color: #ca0815;
+  }
+  a.main-menu--link{
+    width: 100%;
+  }
+  span.btn-rp-menu{
+    position: absolute;
+    top: 0;
+    right: -560px;
+  }
+  .sidenav {
+    height: 100%;
+    position: fixed;
+    width: 30%;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 5px 5px 5px 5px #888888;
+  }
+  
+  .sidenav a {
+    padding: 5px 5px 5px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid;
+  }
+  
+  .sidenav a:hover {
+    color: #ca0815;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    padding-right: 50px;
+  }
+  
+}
+@media only screen and (max-width: 768px){
+  #mySidenav{
+    display: none;
+  }
+  span.btn-rp-menu{
+    display: block;
+    float: right;
+    margin-right: 5px;
+  }
+  .footer__flow{
+    display: block;
+  }
+  .top__bar--box{
+    display: none;
+  }
+  .header-main{
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px){
+  button.submit__search {
+    position: absolute;
+    top: 0;
+    line-height: 30px;
+    width: 30px;
+    font-size: 10px;
+    background-color: #cd1218;
+    border: none;
+}
+input.import__search {
+  height: 30px;
+  line-height: 31px;
+  font-size: 14px;
+  padding: 0 0 0 14px;
+  position: relative;
+  width: 80%;
+  border-left: 1px solid #888888;
+}
+.btn-group {
+  display: none;
+}
+.header__logo--img {
+  width: 165px;
+  max-width: 100%;
+}
+
+}
