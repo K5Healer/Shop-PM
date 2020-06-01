@@ -113,7 +113,7 @@ i.submit__search--icon{
     color: #ffffff;
 }
 i.header__right--icon{
-    font-size: 21px;
+    font-size: 24px;
     position: relative;
     
 }
@@ -122,22 +122,24 @@ a.top-cart{
     color: #111111;
 }
 span.header__right--number1{
-    width: 18px;
+    width: 24px;
     height: 24px;
+    line-height: 24px;
     background-color: #cd1218;
     color: #ffffff;
     position: absolute;
     text-align: center;
     top: -11px;
-    left: 35px;
+    left: 37px;
     border-radius: 50%;
 }
 span.header__right--number2{
     position: absolute;
     top: -10px;
-    left: 85px;
-    width: 18px;
+    left: 90px;
+    width: 24px;
     height: 24px;
+    line-height: 24px;
     background-color: #cd1218;
     color: #ffffff;
     text-align: center;
@@ -1034,7 +1036,8 @@ span.shop-span {
     background: black !important;
     color: black !important;
     z-index: 10;
-    border-radius: 50%;
+    opacity: 0.5;
+    width: 50px !important;height: 50px !important;
 }
 .slick-prev{
     left: 0 !important;
